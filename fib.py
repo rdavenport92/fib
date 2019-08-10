@@ -76,6 +76,7 @@ def main():#--------------------------------------MAIN LOOP
         last = get_last()
         print_result(fun, last, myFib)
 
-main()
+if __name__ == "__main__":
+    main()
 
 
